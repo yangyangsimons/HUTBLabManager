@@ -1,0 +1,1 @@
+<view class="rooms-container"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="room-item"><view class="name">{{item.a}}</view><view class="capacity-wrap"><uni-icons wx:if="{{b}}" u-i="{{item.b}}" bind:__l="__l" u-p="{{b}}"/><view class="capacity">容量: {{item.c}} 人</view></view></view></view>

@@ -1,0 +1,25 @@
+.index-page {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f4f6;
+
+  ::v-deep .uni-nav-bar-text {
+    font-size: 36rpx !important;
+    font-weight: 900 !important;
+    color: rgba(16, 18, 19, 1) !important;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 0 !important;
+  }
+  ::v-deep .uni-navbar__header-btns-left {
+    width: 80rpx !important;
+  }
+  ::v-deep .uniui-calendar {
+    font-size: 60rpx !important;
+  }
+}
